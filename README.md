@@ -1,6 +1,6 @@
 # BasicsUtils
 
-![Plugin Logo](https://github.com/MrTroxy/BasicsUtils/logo.png)
+![Plugin Logo](https://github.com/MrTroxy/BasicsUtils/blob/main/logo.png)
 
 **BasicsUtils** is a versatile Minecraft plugin designed for 1.21.1, offering a suite of essential commands and features for both players and staff members. Enhance your server management and player experience with intuitive commands and customizable configurations.
 
