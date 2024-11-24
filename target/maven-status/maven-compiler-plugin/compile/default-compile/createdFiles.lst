@@ -1,0 +1,11 @@
+com\dev\mrtroxy\basicsUtils\commands\GodCommand.class
+com\dev\mrtroxy\basicsUtils\listeners\TPAListener.class
+com\dev\mrtroxy\basicsUtils\commands\EnderChestCommand.class
+com\dev\mrtroxy\basicsUtils\commands\TrashCommand.class
+com\dev\mrtroxy\basicsUtils\utils\MessageUtil.class
+com\dev\mrtroxy\basicsUtils\Main.class
+com\dev\mrtroxy\basicsUtils\commands\GamemodeCommand.class
+com\dev\mrtroxy\basicsUtils\commands\TPACommand.class
+com\dev\mrtroxy\basicsUtils\listeners\EventListener.class
+com\dev\mrtroxy\basicsUtils\commands\FixCommand.class
+com\dev\mrtroxy\basicsUtils\commands\OpenInvCommand.class

@@ -1,0 +1,64 @@
+name: BasicsUtils
+version: 1.0.0
+main: com.dev.mrtroxy.basicsUtils.Main
+api-version: 1.21
+commands:
+  gamemode:
+    description: Sets the player to the gamemode specified.
+    usage: /gamemode <type> [player]
+    permission: basicsUtils.gamemode
+  god:
+    description: Toggles god mode for a player.
+    usage: /god [player]
+    permission: basicsUtils.god
+  openinv:
+    description: Opens the inventory of a player.
+    usage: /openinv <player>
+    permission: basicsUtils.openinv
+  enderchest:
+    description: Opens the ender chest of a player.
+    usage: /enderchest [player]
+    permission: basicsUtils.enderchest
+  fix:
+    description: Fixes the item in your hand.
+    usage: /fix
+    permission: basicsUtils.fix
+  tpa:
+    description: Sends a teleport request to a player.
+    usage: /tpa <player>
+    permission: basicsUtils.tpa
+  trash:
+    description: Opens a trash menu to dispose items.
+    usage: /trash
+    permission: basicsUtils.trash
+permissions:
+  basicsUtils.gamemode:
+    description: Allows the use of /gamemode.
+    default: op
+  basicsUtils.gamemode.others:
+    description: Allows changing other players' gamemode.
+    default: op
+  basicsUtils.god:
+    description: Allows toggling god mode.
+    default: op
+  basicsUtils.god.others:
+    description: Allows toggling god mode for others.
+    default: op
+  basicsUtils.openinv:
+    description: Allows opening another player's inventory.
+    default: op
+  basicsUtils.enderchest:
+    description: Allows opening another player's ender chest.
+    default: op
+  basicsUtils.enderchest.others:
+    description: Allows opening another player's ender chest.
+    default: op
+  basicsUtils.fix:
+    description: Allows fixing items.
+    default: op
+  basicsUtils.tpa:
+    description: Allows sending teleport requests.
+    default: true
+  basicsUtils.trash:
+    description: Allows opening the trash menu.
+    default: true
